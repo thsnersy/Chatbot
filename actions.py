@@ -26,28 +26,28 @@
 #
 #         return []
 
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import unicode_literals
+# from __future__ import absolute_import
+# from __future__ import division
+# from __future__ import unicode_literals
 
-from rasa_sdk.knowladge_base import actions
-from rasa_sdk.events import SlotSet
-import praw
-class ActionWeather(Action):
-
-
-        reddit = praw.Reddit(client_id = 'M0r2Lz_sW0GAig',
-            client_secret = 'P8lCAp8i6UG2SAah8FvBUElDLbg',
-            user_agent = 'image-collector',
-            username = "thsnersy" ,
-            password = "thsnreddit1001" )
+# from rasa_sdk.knowladge_base import Action
+# from rasa_sdk.events import SlotSet
+# import praw
+# class ActionWeather(Action):
 
 
-        subreddit = reddit.subreddit('gonewild')
+#         reddit = praw.Reddit(client_id = 'M0r2Lz_sW0GAig',
+#             client_secret = 'P8lCAp8i6UG2SAah8FvBUElDLbg',
+#             user_agent = 'image-collector',
+#             username = "thsnersy" ,
+#             password = "thsnreddit1001" )
 
-        hot_python = subreddit.hot(limit=5)
 
-        for submission in hot_python:
-                if not submission.stickied:
-                    print(submission.shortlink)
+#         subreddit = reddit.subreddit('gonewild')
+
+#         hot_python = subreddit.hot(limit=5)
+
+#         for submission in hot_python:
+#                 if not submission.stickied:
+#                     print(submission.shortlink)
 
