@@ -7,7 +7,7 @@ reddit = praw.Reddit(client_id = 'M0r2Lz_sW0GAig',
                     password = "thsnreddit1001" )
 
 
-subreddit = reddit.subreddit('gonewild')
+subreddit = reddit.subreddit('')
 
 hot_python = subreddit.hot(limit=5)
 

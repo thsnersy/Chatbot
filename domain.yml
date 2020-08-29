@@ -6,7 +6,7 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-  - nudes
+  - memes
 
 responses:
   utter_greet:
@@ -28,9 +28,9 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
-  utter_nudes:
-  - text: "Here are some nudes."
-    image: "https://www.reddit.com/r/gonewild/comments/iczlfh/doggy_is_my_favorite_position_f/"
+  utter_memes:
+  - text: "Here are some memes."
+    image: "https://www.reddit.com/r/memes/comments/iipcko/we_do_that_here/"
   
 
 session_config:

@@ -56,8 +56,8 @@
 - am I talking to a bot?
 - am I talking to a human?
 
-## intent:nudes
-- nudes?
-- can you send me nudes?
+## intent:memes
+- meme?
+- can you send me memes?
 - send me some pics?
 
